@@ -19,6 +19,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
      * Provide a reference to the type of views that you are using
      * (custom ViewHolder).
      */
+
+
+
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final TextView textView;
 
@@ -32,6 +36,9 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         public TextView getTextView() {
             return textView;
         }
+
+
+
     }
 
     /**
